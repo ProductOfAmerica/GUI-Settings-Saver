@@ -46,4 +46,5 @@ addWindowListener(new WindowAdapter() {
 
 ###General Rules:
 Objects you wish to save **MUST** be saved **and** loaded with the same IDs.
+
 For example, if you save a JComboBox `.addComboBox(getComboBox1(), "comboBox1")` you need to load it the same way, using "comboBox1" as the parameter ID: `.loadComboBox(getComboBox1(), "comboBox1")`. Notice how both saving and loading share the same **comboBox1** parameter ID.
