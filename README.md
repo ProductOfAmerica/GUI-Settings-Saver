@@ -44,7 +44,7 @@ addWindowListener(new WindowAdapter() {
         });
 ```
 
-Example XML file output after saving:
+###Example XML file output after saving:
 ```xml
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <gui_settings>
