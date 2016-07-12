@@ -14,7 +14,7 @@ public class Test extends JFrame {
     public Test() {
         initComponents();
 
-        SettingsLoader loader = new SettingsLoader(new File("C:\\Users\\lee.tarnow\\Desktop\\file.xml"));
+        SettingsLoader loader = new SettingsLoader(new File(System.getProperty("user.home") + "/Desktop"));
         loader.loadCheckBox(getCheckBox1(), "checkBox1")
                 .loadComboBox(getComboBox1(), "comboBox1")
                 .loadTextField(getTextField1(), "textField1")
@@ -65,7 +65,7 @@ public class Test extends JFrame {
                         .addSpinner(getSpinner1(), "spinner1")
                         .addSlider(getSlider1(), "slider1");
 
-                saver.saveToFile("C:\\Users\\lee.tarnow\\Desktop\\file.xml");
+                saver.saveToFile(System.getProperty("user.home") + "/Desktop");
             }
         });
 
