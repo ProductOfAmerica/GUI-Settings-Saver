@@ -3,7 +3,7 @@ Saves a GUI's settings, and loads them for convenience.
 
 Settings are stored to and parsed from a .xml file. Beware that these files can easily be edited, and GUI settings could be changed manually. This is good to note in the case that you might rely on your GUI to enable/disable features based on certain requirements, but these parameters can be avoided by changing the .xml file's settings.
 
-There is an example test-file that demonstrates the file saving capabilities this program has.
+There is an example test-file that demonstrates the file saving capabilities this program has called "Test.java"
 
 ###Example to load settings:
 ```java
