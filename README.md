@@ -44,6 +44,61 @@ addWindowListener(new WindowAdapter() {
         });
 ```
 
+Example XML file output after saving:
+```xml
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gui_settings>
+    <check_box id="checkBox1">
+        <enabled>true</enabled>
+        <selected>true</selected>
+    </check_box>
+    <combo_box id="comboBox1">
+        <enabled>true</enabled>
+        <selected_index>2</selected_index>
+        <item>Before Text4</item>
+        <item>Before Text3</item>
+        <item>Before Text2</item>
+        <item>Before Text1</item>
+    </combo_box>
+    <label id="label1">
+        <enabled>true</enabled>
+        <text>Before Text</text>
+    </label>
+    <radio id="radioButton1">
+        <enabled>true</enabled>
+        <selected>true</selected>
+    </radio>
+    <toggle id="toggleButton1">
+        <enabled>true</enabled>
+        <selected>true</selected>
+    </toggle>
+    <button id="button1">
+        <enabled>true</enabled>
+    </button>
+    <text_field id="textField1">
+        <enabled>true</enabled>
+        <text>Before Text@@@@</text>
+    </text_field>
+    <text_area id="textArea1">
+        <enabled>true</enabled>
+        <text>Before Text1234</text>
+    </text_area>
+    <text_pane id="textPane1">
+        <enabled>true</enabled>
+        <text>Before Text!!!!!</text>
+    </text_pane>
+    <spinner id="spinner1">
+        <enabled>true</enabled>
+        <amount>1111</amount>
+    </spinner>
+    <slider id="slider1">
+        <enabled>true</enabled>
+        <amount>72</amount>
+    </slider>
+</gui_settings>
+
+```
+
 ###General Rules:
 Objects you wish to save **MUST** be saved **and** loaded with the same IDs.
 
